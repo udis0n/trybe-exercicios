@@ -1,0 +1,32 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+body {
+    font-size: 16px;
+}
+
+#ama-relo {
+    background-color: yellow;
+}
+
+#ver-melho {
+    background-color: red;
+}
+
+#mar-rom {
+    background-color: brown;
+}
+
+#lis-ta {
+    line-height: 50px;
+    text-align: center;
+    font-style: italic;
+}

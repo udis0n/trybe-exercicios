@@ -1,0 +1,54 @@
+ol li {
+    background-color: yellow;
+}
+ol li:nth-child(2n) {
+    color: green;
+}
+
+ol li:nth-child(2n+1) {
+    text-transform: uppercase;
+}
+
+.h1toh6 {
+    color: red;
+}
+
+.h1toh6 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold;
+}
+
+.podio {
+    color: blue;
+}
+
+.tagjava {
+    background-color: pink;
+}
+
+.stacko:hover {
+    color: orange;
+}
+
+.w3s:hover {
+    color: green;
+}
+
+.mdn:hover {
+    color: black;
+}
+
+.devd:hover {
+    color: yellow;
+}
+
+.trybe:hover {
+    color: green;
+}

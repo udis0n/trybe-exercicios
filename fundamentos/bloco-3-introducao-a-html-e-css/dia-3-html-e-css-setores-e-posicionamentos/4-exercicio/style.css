@@ -1,0 +1,27 @@
+div:hover {
+    border: 2px solid green;
+}
+
+div:nth-child(3) {
+    color: red;
+    text-decoration: underline;
+}
+div:nth-child(4) {
+    color: orange;
+    text-decoration: line-through;
+}
+div:nth-child(5) {
+    color: yellow;
+    font-size: 2em;
+}
+div:nth-child(6) {
+    color: green;
+}
+div:nth-child(7) {
+    color: blue;
+    text-decoration: overline;
+}
+
+div:nth-child(2n+1) {
+    font-style: italic;
+}

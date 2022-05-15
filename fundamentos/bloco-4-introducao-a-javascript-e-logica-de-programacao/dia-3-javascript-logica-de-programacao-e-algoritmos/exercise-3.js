@@ -5,9 +5,9 @@ let smallestWord = '';
 let smallestWordNumber = 0;
 let counter = 0;
 
-for (index = 0; index < array.length; index += 1) {
+for (let index = 0; index < array.length; index += 1) {
     counter = 0;
-    for (secondIndex = 0; secondIndex < array[index].length; secondIndex += 1) {
+    for (let secondIndex = 0; secondIndex < array[index].length; secondIndex += 1) {
         counter += 1;
     };
     if (index === 0) {
@@ -21,9 +21,9 @@ for (index = 0; index < array.length; index += 1) {
 
 console.log('a maior palavra é', biggestWord);
 
-for (index = 0; index < array.length; index += 1) {
+for (let index = 0; index < array.length; index += 1) {
     counter = 0;
-    for (secondIndex = 0; secondIndex < array[index].length; secondIndex += 1) {
+    for (let secondIndex = 0; secondIndex < array[index].length; secondIndex += 1) {
         counter += 1;
     };
     if (index === 0) {

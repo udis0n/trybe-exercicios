@@ -1,9 +1,9 @@
 let maxNumber = 50;
 let biggerPrimeNumber = 0;
 
-for (index = 2; index <= maxNumber; index += 1) {
+for (let index = 2; index <= maxNumber; index += 1) {
     let primeCounter = 0;
-    for (secondIndex = 1; secondIndex <= maxNumber; secondIndex += 1) {
+    for (let secondIndex = 1; secondIndex <= maxNumber; secondIndex += 1) {
         if (index % secondIndex === 0) {
             primeCounter += 1
         }

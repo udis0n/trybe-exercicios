@@ -1,0 +1,13 @@
+let n = 5;
+
+let center = (n + 1) / 2;
+let left = center;
+let right = center;
+
+for (let line = 0; line <= center; line += 1) {
+    for (let column = 0; column <= n; column += 1) {
+        if (column > left && column < right) {
+
+        };
+    };
+};

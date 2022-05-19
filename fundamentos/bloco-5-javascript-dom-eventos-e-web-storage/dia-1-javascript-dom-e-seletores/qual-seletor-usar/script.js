@@ -9,3 +9,5 @@ let divColor = document.getElementsByTagName('h3');
 for (let index = 0; index < divColor.length ; index += 1) {
     divColor[index].style.backgroundColor = 'black';
 }
+
+document.getElementById('footer-container').style.backgroundColor = 'seagreen';

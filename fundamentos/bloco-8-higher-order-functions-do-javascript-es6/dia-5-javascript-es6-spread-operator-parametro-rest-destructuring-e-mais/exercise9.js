@@ -11,5 +11,3 @@ const {spring, summer, autumn, winter} = yearSeasons;
 yearMonths = [...winter, ...spring, ...summer, ...autumn];
 
 console.log(yearMonths);
-
-
